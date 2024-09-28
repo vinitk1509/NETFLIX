@@ -1,0 +1,810 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Noto Sans", sans-serif;
+}
+    body{
+    background-color: black;
+}.main{
+    background-image: url(assests/back.jpg);
+    /* background-position:; */
+    /* background-position: center center; */
+    background-size: max(2000px, 100vw);
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+    z-index: 25;
+   
+   /* box-shadow: 0px 22px 100px 14px rgb(64 93 231); */
+    
+}
+.main .blackbox{
+    height: 100vh;
+    width: 100%;
+    opacity: 0.69;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+nav{
+    display: flex;
+    max-width: 81vw;
+   justify-content: space-between;
+   margin: auto;
+   align-items: center;
+   height: 100px; 
+   
+}
+nav img{
+    width: 140px;
+    color: red;
+    position: relative;
+    z-index: 10;
+}
+nav button{
+    position: relative;
+    z-index: 10;
+}
+.hero{
+    font-family: "Noto Sans", sans-serif;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    padding: 100px 23px;
+    gap: 8px;
+}
+
+.hero> :nth-child(1){
+    font-size: 56px;
+    font-weight: 900;
+    text-align: center;
+} 
+.hero> :nth-child(2){
+    font-size: 56px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.hero> :nth-child(3){
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.hero> :nth-child(4){
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+.btn{
+    padding: 3px 8px;
+    font-weight: 450;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.49);
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.036);
+    cursor: pointer;
+}
+.redsignin{
+    padding: 3px 9px;
+    text-align: center;
+    background-color: red;
+    color: white;
+    font-size: 17px;
+    font-weight: 550;
+    border-radius: 3px;
+    border: 0px;
+}
+.hero_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.main input{
+    padding: 10px 120px 10px 4px;
+    font-weight: 400;
+    color: white;
+    border-radius: 3px;
+    border: 1px solid rgba(246, 238, 238, 0.7);
+    background-color:rgba(23,23,23,0.7)
+}
+.red_get_start{
+    padding: 7px 24px;
+    text-align: center;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 3px;
+    border: 0px;
+}
+.container {
+    display: flex;
+    justify-content: center; /* Horizontal center */
+    align-items: center; /* Vertical center */
+    /* height: 10vh; Full viewport height */
+  }
+  
+.shad{
+    height: 30px;
+    width: 0px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 -270px 205px 130px rgb(64 93 231);
+
+}
+.pinkbox{
+    height: 3px;
+    background: rgb(250,21,136);
+    background: radial-gradient(circle, rgba(250,21,136,1) 0%, rgba(29,2,47,1) 68%, rgba(2,0,36,1) 100%);
+    clip-path:circle(70% 90% at 50% 50%);
+    position: relative;
+    z-index: 15;
+    /* box-shadow: 0px 0px 900px 34px rgb(64 93 231); */
+    margin-bottom: 79px;
+}
+.trending{
+    color: white;
+    padding-left: 100px;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+.trend{
+    display: flex;
+    position: relative;
+    padding-top: 50px;
+    gap: 50px;
+    overflow: hidden;
+    
+}
+.trend > :nth-child(1){
+    background-color: grey;
+    margin: 15px 13px 12px;
+    height: 276px;
+    width: 198px;
+    display: inline;
+    position: relative;
+    border-radius: 5px;
+    z-index: 5;  
+    margin-left: 147px;  
+    cursor: pointer;
+    
+}
+
+.trend > :nth-child(2){
+    background-color: grey;
+    margin: 15px 13px 12px;
+    height: 276px;
+    width: 198px;
+    display: inline;
+    position: relative;
+    border-radius: 5px;
+    z-index: 5;  
+    cursor: pointer;   
+}
+.trend > :nth-child(3){
+    background-color: grey;
+    margin: 15px 13px 12px;
+    height: 276px;
+    width: 198px;
+    display: inline;
+    position: relative;
+    border-radius: 5px;
+    z-index: 5;  
+    cursor: pointer; 
+}
+.trend > :nth-child(4){
+    background-color: grey;
+    margin: 15px 13px 12px;
+    height: 276px;
+    width: 198px;
+    display: inline;
+    position: relative;
+    border-radius: 5px;
+    z-index: 5;  
+    cursor: pointer; 
+}
+.trend > :nth-child(5){
+    background-color: grey;
+    margin: 15px 13px 12px;
+    height: 276px;
+    width: 198px;
+    display: inline;
+    position: relative;
+    border-radius: 5px;
+    z-index: 5;  
+    cursor: pointer;  
+}
+.trend > :nth-child(6){
+    background-color: grey;
+    margin: 15px 13px 12px;
+    height: 276px;
+    width: 198px;
+    display: inline;
+    position: relative;
+    border-radius: 5px;
+    z-index: 5;  
+    cursor: pointer;  
+}.trend > :nth-child(7){
+    background-color: grey;
+    margin: 15px 13px 12px;
+    height: 276px;
+    width: 198px;
+    display: inline;
+    position: relative;
+    border-radius: 5px;
+    z-index: 5;  
+    cursor: pointer;  
+}.trend > :nth-child(8){
+    background-color: grey;
+    margin: 15px 13px 12px;
+    height: 276px;
+    width: 198px;
+    display: inline;
+    position: relative;
+    border-radius: 5px;
+    z-index: 5;  
+    cursor: pointer;  
+}.trend > :nth-child(9){
+    background-color: grey;
+    margin: 15px 13px 12px;
+    height: 276px;
+    width: 198px;
+    display: inline;
+    position: relative;
+    border-radius: 5px;
+    z-index: 5;  
+    cursor: pointer;  
+}.trend > :nth-child(10){
+    background-color: grey;
+    margin: 15px 13px 12px;
+    height: 276px;
+    width: 198px;
+    display: inline;
+    position: relative;
+    border-radius: 5px;
+    z-index: 5;  
+    cursor: pointer;  
+}
+.one img{
+    position: relative;
+    padding: 0;
+    margin: 0;
+    border-radius: 3px;
+    z-index: 7;
+    
+}
+.num1 { position: absolute;
+    bottom: 65px;
+    left: 6px;
+    color: #fdfdfd;
+    font-size: 107px;
+    font-weight: bold;
+    border-radius: 10%;
+    width: 0px;
+    background-color: black;
+    height: 0px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    
+}
+.reasons span{
+    font-family: "Noto Sans", sans-serif;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px 100px;
+
+}
+
+    .rboxes {
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        left: 0vw;
+        padding-top: 25px;
+        padding-left: 0px;
+        gap: 25px;
+        overflow: hidden;
+        justify-content: center;
+
+    }
+    
+
+.rboxes > :nth-child(1){
+    color: rgb(255, 255, 255);
+    /* background-color: grey; */
+    margin: 15px 13px 12px;
+    height: 280px;
+    width: 20vw;
+    border-radius: 10px;
+    display: flex;
+    /* position: inline; */
+    border-radius: 5px;
+    cursor: pointer; 
+    background: linear-gradient(to bottom, #17183a, #1e1b37, #23192e);
+    border-radius: 17px;
+
+}
+.rboxes > :nth-child(2){
+    /* background-color: grey; */
+    margin: 15px 13px 12px;
+    height: 280px;
+    width: 20vw;
+    display: flex;
+    /* position: inline; */
+    border-radius: 5px;
+    cursor: pointer;
+    background: linear-gradient(to bottom, #17183a, #1e1b37, #23192e);
+    border-radius: 17px;
+
+    /* left: 138px;  */
+}
+.rboxes > :nth-child(3){
+    /* background-color: grey; */
+    margin: 15px 13px 12px;
+    height: 280px;
+    width: 20vw;
+    display: flex;
+    /* position: inline; */
+    border-radius: 5px;
+    cursor: pointer;
+    background: linear-gradient(to bottom, #17183a, #1e1b37, #23192e);
+    border-radius: 17px;
+
+    /* left: 138px;  */
+}
+.rboxes > :nth-child(4){
+    /* background-color: grey; */
+    margin: 15px 13px 12px;
+    height: 280px;
+    width: 20vw;
+    display: flex;
+    /* position: inline; */
+    border-radius: 5px;
+    cursor: pointer;
+    background: linear-gradient(to bottom, #17183a, #1e1b37, #23192e);
+    border-radius: 17px;
+
+    /* left: 138px;  */
+}
+.rb1{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    position: relative;
+}
+
+.rb1 h2{
+    font-family: "Noto Sans", sans-serif;
+    padding: 24px 14px 0px 15px ;
+    font-size: 24px;
+    font-weight: bold;
+}
+.rb1 p{
+    font-family: "Noto Sans", sans-serif;
+    padding: 24px 14px 0px 15px ;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(255 255 255 / 70%);
+}
+
+.laptop{
+    bottom: 2px;
+    right: 18px;
+    width: 63px;
+    position: absolute;
+}
+.laptop img{
+    width: 63px;
+    /* padding: 50px 0px 0px 215px; */
+}
+
+
+
+
+
+
+
+.faq h2{
+    font-family: "Noto Sans", sans-serif;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-around;
+}
+.faq{
+    color: white;
+    background-color: black;
+    padding: 28px;
+    
+}
+.faqbox:hover{
+    background-color: #414141;
+    color: white;
+}
+.faqbox{
+    font-family: "Noto Sans", sans-serif;
+    transition: all 1s ease-in-out;
+    font-size: 19px;
+    display: flex;
+    background-color: #2d2d2d;
+    padding: 21px;
+    max-width: 60vw;
+    justify-content: space-between;
+    margin: 9px auto;
+    cursor: pointer;
+}
+.email{
+    font-family: "Noto Sans", sans-serif;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 500;
+    display: flex;
+    padding: 7px 0px 0px 0px;
+    align-items: center;
+    justify-content: center;
+}
+.mail-foot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 19px;
+}
+.gs-foot{
+    font-family: "Noto Sans", sans-serif;
+    padding: 7px 24px;
+    text-align: center;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 3px;
+    border: 0px;
+}
+.mail-foot input{
+    font-family: "Noto Sans", sans-serif;
+        padding: 10px 120px 10px 4px;
+        font-weight: 400;
+        color: white;
+        border-radius: 3px;
+        border: 1px solid rgba(246, 238, 238, 0.7);
+        background-color:rgba(23,23,23,0.7)
+}
+
+
+
+
+footer {
+    max-width: 90vw;
+    padding: 24px 0;
+}
+.questions{
+    color: white;
+    margin-left: 100px;
+}
+
+.footer-item{
+    align-items: center;
+}
+
+.footer {
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 25px;
+}
+
+
+.footer a {
+font-size: 14px;
+color: white;
+}
+
+.footer-item {
+display: flex;
+flex-direction: column;
+gap: 23px;
+}
+.fuut{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    padding: 48px 0px 13px 110px;
+    font-size: 14px;
+    color: white;
+
+}
+.end-btn{
+        display: flex;
+        width: 100px;
+        justify-content: center;
+    padding: 3px 18px;
+    font-weight: 450;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.49);
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.036);
+    cursor: pointer;
+}
+@media screen and (max-width: 1300px) {
+
+    .trending{
+        padding-left: 25px;
+    }
+    .reasons span {
+        padding: 9px 25px;
+    }
+    .rboxes{
+        display: grid 1fr 1fr; 
+    }
+    .rboxes > :nth-child(1) {
+        margin: 15px 26px 12px;
+        height: 249px;
+        width: 376px;
+    }
+    .laptop img {
+        width: 63px;
+        padding: 33px 0px 0px 294px;
+    }
+    .rboxes > :nth-child(2) {
+        margin: 15px 26px 12px;
+        height: 249px;
+        width: 376px;
+    }
+    .download img {
+        width: 83px;
+        padding: 14px 0px 0px 285px;
+    }
+    .rboxes > :nth-child(3) {
+        margin: 15px 26px 12px;
+        height: 249px;
+        width: 376px;
+    }
+    .scope img {
+        width: 90px;
+        padding: 33px 0px 0px 277px;
+    }
+    .rboxes > :nth-child(4) {
+        margin: 15px 26px 12px;
+        height: 249px;
+        width: 376px;
+    }
+    .face img {
+        width: 85px;
+        padding: 13px 0px 0px 284px;
+    }
+    .faq h2 {
+        font-size: 23px;
+        display: flex;
+        left: 50px;
+        flex-direction: row-reverse;
+        padding: 0px 23px;
+        justify-content: space-around;
+    }
+
+
+    .trend{
+        padding-top: 13px;
+        gap: 3px;
+        overflow: hidden;
+    }
+    .trend > :nth-child(1) {
+        margin: 15px 11px 13px;
+        height: 180px;
+        width: 125px;
+        margin-left: 20px;
+        
+    }
+    .one img {
+        position: relative;
+        height: 180px;
+        width: 121px;
+        padding: 0;
+        margin: 0;
+        border-radius: 3px;
+        z-index: 7;
+    }
+    .num1{
+        bottom: 30px;
+        left: 5px;
+        font-size: 66px;
+    }
+
+    .trend > :nth-child(2) {
+        margin: 15px 11px 13px;
+        height: 180px;
+        width: 125px;
+        
+    }
+    .two img {
+        position: relative;
+        height: 180px;
+        width: 121px;
+        padding: 0;
+        margin: 0;
+        border-radius: 3px;
+        z-index: 7;
+    }
+    .num2{
+        bottom: 30px;
+        left: 5px;
+        font-size: 66px;
+    }
+    
+    .trend > :nth-child(3) {
+        margin: 15px 11px 13px;
+        height: 180px;
+        width: 125px;
+        
+    }
+    .three img {
+        position: relative;
+        height: 180px;
+        width: 121px;
+        padding: 0;
+        margin: 0;
+        border-radius: 3px;
+        z-index: 7;
+    }
+    .num3{
+        bottom: 30px;
+        left: 5px;
+        font-size: 66px;
+    }
+    .trend > :nth-child(4) {
+        margin: 15px 11px 13px;
+        height: 180px;
+        width: 125px;
+        
+    }
+    .four img {
+        position: relative;
+        height: 180px;
+        width: 121px;
+        padding: 0;
+        margin: 0;
+        border-radius: 3px;
+        z-index: 7;
+    }
+    .num4{
+        bottom: 30px;
+        left: 5px;
+        font-size: 66px;
+    }
+    .trend > :nth-child(5) {
+        margin: 15px 11px 13px;
+        height: 180px;
+        width: 125px;
+        
+    }
+    .five img {
+        position: relative;
+        height: 180px;
+        width: 121px;
+        padding: 0;
+        margin: 0;
+        border-radius: 3px;
+        z-index: 7;
+    }
+    .num5{
+        bottom: 30px;
+        left: 5px;
+        font-size: 66px;
+    }
+
+
+    .trend > :nth-child(6) {
+        margin: 15px 11px 13px;
+        height: 180px;
+        width: 125px;
+        margin-left: 20px;
+        
+    }
+    .six img {
+        position: relative;
+        height: 180px;
+        width: 121px;
+        padding: 0;
+        margin: 0;
+        border-radius: 3px;
+        z-index: 7;
+    }
+    .num6{
+        bottom: 30px;
+        left: 5px;
+        font-size: 66px;
+    } .trend > :nth-child(7) {
+        margin: 15px 11px 13px;
+        height: 180px;
+        width: 125px;
+        margin-left: 20px;
+        
+    }
+    .seven img {
+        position: relative;
+        height: 180px;
+        width: 121px;
+        padding: 0;
+        margin: 0;
+        border-radius: 3px;
+        z-index: 7;
+    }
+    .num7{
+        bottom: 30px;
+        left: 5px;
+        font-size: 66px;
+    } .trend > :nth-child(8) {
+        margin: 15px 11px 13px;
+        height: 180px;
+        width: 125px;
+        margin-left: 20px;
+        
+    }
+    .eight img {
+        position: relative;
+        height: 180px;
+        width: 121px;
+        padding: 0;
+        margin: 0;
+        border-radius: 3px;
+        z-index: 7;
+    }
+    .num8{
+        bottom: 30px;
+        left: 5px;
+        font-size: 66px;
+    }
+    .footer{
+        display: grid;
+    grid-template-columns: 1fr 1fr ;
+    
+    }
+    .questions{
+        margin-left: 46px;
+    }
+    .gs-foot{
+        display: flex;
+    }
+    section.first > div :nth-child(1){
+        font-size: 32px;
+    }
+    section.first > div:nth-child(2){
+        font-size: 18px;}
+    section.first > div:nth-child(3){
+            font-size: 18px;}
+  .hero-button{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .mail-foot{
+    display: flex;
+    flex-direction: column;
+  }
+  .end-btn {
+    display: flex;
+    padding: 2px 8px;
+    width: 100px;
+    font-size: 17px;
+    justify-content: center;
+}
+.fuut {
+    padding: 48px 0px 13px 30px;
+}
+
+.red_get_start {
+    padding: 10px 2px;
+    font-size: 13px;
+}
+}
